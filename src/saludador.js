@@ -10,20 +10,18 @@ function obtenerPrefijo(hora) {
   }
 }
 
-function obtenerTratoGenero(genero) {
-  if (genero === "Masculino") {
-    return "Sr.";
-  } 
-  else if (genero === "Femenino") {
-    return "Sra.";
+function obtenerTratoGenero(genero, edad) {
+  if (edad > 30) {
+    if (genero === "Masculino") return "Sr.";
+    if (genero === "Femenino") return "Sra.";
   }
   return "";
 }
 
-function saludar(nombre, genero = "o",  fechaActual = new Date()) {
+function saludar(nombre, genero = "o", edad = 0,  fechaActual = new Date()) {
   const hora = fechaActual.getHours();
   const prefijo = obtenerPrefijo(hora);
-  const trato = obtenerTratoGenero(genero)
+  const trato = obtenerTratoGenero(genero, edad)
   return `¡${prefijo}, ${trato} ${nombre}!`;
 }
 
