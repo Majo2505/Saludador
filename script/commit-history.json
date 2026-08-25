@@ -190,17 +190,36 @@
     "conclusion": "neutral"
   },
   {
-    "sha": "HEAD",
+    "sha": "00d9bde33a1f5f0a7bc39370524f2dcfb49d214f",
     "author": "Your Name",
     "commit": {
       "date": "2026-08-25T13:38:18.000Z",
       "message": "feat: mostrar mensaje de error con dato invalido",
-      "url": "https://github.com/Majo2505/Saludador/commit/HEAD"
+      "url": "https://github.com/Majo2505/Saludador/commit/00d9bde33a1f5f0a7bc39370524f2dcfb49d214f"
     },
     "stats": {
       "total": 5,
       "additions": 5,
       "deletions": 0,
+      "date": "2026-08-25"
+    },
+    "coverage": 0,
+    "test_count": 0,
+    "failed_tests": 0,
+    "conclusion": "neutral"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Your Name",
+    "commit": {
+      "date": "2026-08-25T13:40:53.000Z",
+      "message": "fix: restricciones de datos invalidos",
+      "url": "https://github.com/Majo2505/Saludador/commit/HEAD"
+    },
+    "stats": {
+      "total": 2,
+      "additions": 1,
+      "deletions": 1,
       "date": "2026-08-25"
     },
     "coverage": 0,

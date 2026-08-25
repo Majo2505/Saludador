@@ -18,7 +18,7 @@ function obtenerTratoGenero(genero, edad, idioma) {
 
 function saludar(nombre, genero = "o", edad = 0, idioma = "es", fechaActual = new Date())
 {
-  if (Number.isNaN(edad) || edad < 0 || edad > 120) {
+  if (edad < 0 || edad > 120) {
     return idioma === "en" 
       ? "Error: Invalid age. Please enter a value between 0 and 120." 
       : "Error: Edad inválida. Por favor ingrese un valor entre 0 y 120.";

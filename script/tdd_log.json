@@ -60,9 +60,15 @@
     "testId": 9
   },
   {
-    "commitId": "HEAD",
+    "commitId": "00d9bde33a1f5f0a7bc39370524f2dcfb49d214f",
     "commitName": "feat: mostrar mensaje de error con dato invalido",
     "commitTimestamp": 1787665099815,
     "testId": 10
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: restricciones de datos invalidos",
+    "commitTimestamp": 1787665255146,
+    "testId": 11
   }
 ]
