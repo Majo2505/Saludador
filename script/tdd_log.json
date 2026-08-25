@@ -12,9 +12,15 @@
     "testId": 1
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4faa7ae7d19619edc91ab26c2e383c0912f88616",
     "commitName": "feat: saludo segun la hora del dia",
     "commitTimestamp": 1787630300784,
     "testId": 2
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: saludo personalizado por genero",
+    "commitTimestamp": 1787630976592,
+    "testId": 3
   }
 ]
