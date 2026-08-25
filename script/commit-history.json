@@ -19,17 +19,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5a61bedea371031144abd86bc5a13d7e8a00daa4",
     "author": "Your Name",
     "commit": {
       "date": "2026-08-25T03:48:29.000Z",
       "message": "feat: saludador con nombre",
-      "url": "https://github.com/Majo2505/Saludador/commit/HEAD"
+      "url": "https://github.com/Majo2505/Saludador/commit/5a61bedea371031144abd86bc5a13d7e8a00daa4"
     },
     "stats": {
       "total": 33,
       "additions": 19,
       "deletions": 14,
+      "date": "2026-08-25"
+    },
+    "coverage": 0,
+    "test_count": 0,
+    "failed_tests": 0,
+    "conclusion": "neutral"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Your Name",
+    "commit": {
+      "date": "2026-08-25T03:58:19.000Z",
+      "message": "feat: saludo segun la hora del dia",
+      "url": "https://github.com/Majo2505/Saludador/commit/HEAD"
+    },
+    "stats": {
+      "total": 26,
+      "additions": 21,
+      "deletions": 5,
       "date": "2026-08-25"
     },
     "coverage": 0,

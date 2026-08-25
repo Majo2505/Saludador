@@ -6,9 +6,15 @@
     "testId": 0
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5a61bedea371031144abd86bc5a13d7e8a00daa4",
     "commitName": "feat: saludador con nombre",
     "commitTimestamp": 1787629710721,
     "testId": 1
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: saludo segun la hora del dia",
+    "commitTimestamp": 1787630300784,
+    "testId": 2
   }
 ]

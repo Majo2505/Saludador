@@ -1,4 +1,4 @@
-import saludar_con_nombre from "./saludador";
+import saludar from "./saludador";
 
 const nombreinput = document.querySelector("#nombreInput");
 const form = document.querySelector("#saludar-form");
@@ -9,5 +9,5 @@ form.addEventListener("submit", (event) => {
 
   const nombre = nombreinput.value;
 
-  div.innerHTML = "<p>" + saludar_con_nombre(nombre) + "</p>";
+  div.innerHTML = "<p>" + saludar(nombre) + "</p>";
 });
