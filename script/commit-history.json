@@ -152,17 +152,36 @@
     "conclusion": "neutral"
   },
   {
-    "sha": "HEAD",
+    "sha": "2a3a956180dce72230939a3bc8bb1ede02108c45",
     "author": "Your Name",
     "commit": {
       "date": "2026-08-25T13:33:49.000Z",
       "message": "fix: cambio de idioma a visitante",
-      "url": "https://github.com/Majo2505/Saludador/commit/HEAD"
+      "url": "https://github.com/Majo2505/Saludador/commit/2a3a956180dce72230939a3bc8bb1ede02108c45"
     },
     "stats": {
       "total": 6,
       "additions": 4,
       "deletions": 2,
+      "date": "2026-08-25"
+    },
+    "coverage": 0,
+    "test_count": 0,
+    "failed_tests": 0,
+    "conclusion": "neutral"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Your Name",
+    "commit": {
+      "date": "2026-08-25T13:35:33.000Z",
+      "message": "fix: letra colada",
+      "url": "https://github.com/Majo2505/Saludador/commit/HEAD"
+    },
+    "stats": {
+      "total": 1,
+      "additions": 0,
+      "deletions": 1,
       "date": "2026-08-25"
     },
     "coverage": 0,

@@ -24,7 +24,6 @@ function saludar(nombre, genero = "o", edad = 0, idioma = "es", fechaActual = ne
   const hora = fechaActual.getHours();
   const prefijo = obtenerPrefijoHora(hora, idioma);
   const trato = nombreFinal === "visitante" ? "" : obtenerTratoGenero(genero, edad, idioma)
-m
   const inicioAclamacion = idioma === "en" ? "" : "¡";
   return `${inicioAclamacion}${prefijo}, ${trato} ${nombreFinal}!`;
 }

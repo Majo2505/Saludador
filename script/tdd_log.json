@@ -48,9 +48,15 @@
     "testId": 7
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2a3a956180dce72230939a3bc8bb1ede02108c45",
     "commitName": "fix: cambio de idioma a visitante",
     "commitTimestamp": 1787664831250,
     "testId": 8
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: letra colada",
+    "commitTimestamp": 1787664934977,
+    "testId": 9
   }
 ]
