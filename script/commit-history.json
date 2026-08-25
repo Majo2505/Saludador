@@ -171,17 +171,36 @@
     "conclusion": "neutral"
   },
   {
-    "sha": "HEAD",
+    "sha": "5b6827922a9577f43c676c16aaa65892a47a3c19",
     "author": "Your Name",
     "commit": {
       "date": "2026-08-25T13:35:33.000Z",
       "message": "fix: letra colada",
-      "url": "https://github.com/Majo2505/Saludador/commit/HEAD"
+      "url": "https://github.com/Majo2505/Saludador/commit/5b6827922a9577f43c676c16aaa65892a47a3c19"
     },
     "stats": {
       "total": 1,
       "additions": 0,
       "deletions": 1,
+      "date": "2026-08-25"
+    },
+    "coverage": 0,
+    "test_count": 0,
+    "failed_tests": 0,
+    "conclusion": "neutral"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Your Name",
+    "commit": {
+      "date": "2026-08-25T13:38:18.000Z",
+      "message": "feat: mostrar mensaje de error con dato invalido",
+      "url": "https://github.com/Majo2505/Saludador/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 5,
+      "deletions": 0,
       "date": "2026-08-25"
     },
     "coverage": 0,

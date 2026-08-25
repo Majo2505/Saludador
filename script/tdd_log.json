@@ -54,9 +54,15 @@
     "testId": 8
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5b6827922a9577f43c676c16aaa65892a47a3c19",
     "commitName": "fix: letra colada",
     "commitTimestamp": 1787664934977,
     "testId": 9
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar mensaje de error con dato invalido",
+    "commitTimestamp": 1787665099815,
+    "testId": 10
   }
 ]
