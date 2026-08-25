@@ -1,9 +1,16 @@
 <!DOCTYPE html>
 <html xml:lang="es">
   <head>
-    <title>Sumador</title>
+    <title>Saludador</title>
   </head>
   <body>
-    <p>HOLA</p>
+    <form id="saludar-form">
+      <label>Ingrese su nombre:</label>
+      <input type="text" id="nombreInput" placeholder="Tu nombre aqui">
+      <button type="submit">Saludar</button>
+    </form>
+    <div id="resultado-div"></div>
+  <script type="module" src="./src/presenter.js"></script>
+
   </body>
 </html>

@@ -1,11 +1,11 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "ca29503739254572a37275aa6f166d977b64b5bb",
     "author": "Your Name",
     "commit": {
       "date": "2026-08-20T14:25:06.000Z",
       "message": "feat: saludo con hola",
-      "url": "https://github.com/Majo2505/Saludador/commit/HEAD"
+      "url": "https://github.com/Majo2505/Saludador/commit/ca29503739254572a37275aa6f166d977b64b5bb"
     },
     "stats": {
       "total": 12,
@@ -17,5 +17,24 @@
     "test_count": 1,
     "failed_tests": 0,
     "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Your Name",
+    "commit": {
+      "date": "2026-08-25T03:48:29.000Z",
+      "message": "feat: saludador con nombre",
+      "url": "https://github.com/Majo2505/Saludador/commit/HEAD"
+    },
+    "stats": {
+      "total": 33,
+      "additions": 19,
+      "deletions": 14,
+      "date": "2026-08-25"
+    },
+    "coverage": 0,
+    "test_count": 0,
+    "failed_tests": 0,
+    "conclusion": "neutral"
   }
 ]
