@@ -42,9 +42,15 @@
     "testId": 6
   },
   {
-    "commitId": "HEAD",
+    "commitId": "843c6d9ecaba455d4b872dc907aab01bd5dbf4c1",
     "commitName": "feat: saludar con visitante si no hay nombre",
     "commitTimestamp": 1787664599961,
     "testId": 7
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: cambio de idioma a visitante",
+    "commitTimestamp": 1787664831250,
+    "testId": 8
   }
 ]

@@ -133,17 +133,36 @@
     "conclusion": "neutral"
   },
   {
-    "sha": "HEAD",
+    "sha": "843c6d9ecaba455d4b872dc907aab01bd5dbf4c1",
     "author": "Your Name",
     "commit": {
       "date": "2026-08-25T13:29:58.000Z",
       "message": "feat: saludar con visitante si no hay nombre",
-      "url": "https://github.com/Majo2505/Saludador/commit/HEAD"
+      "url": "https://github.com/Majo2505/Saludador/commit/843c6d9ecaba455d4b872dc907aab01bd5dbf4c1"
     },
     "stats": {
       "total": 10,
       "additions": 6,
       "deletions": 4,
+      "date": "2026-08-25"
+    },
+    "coverage": 0,
+    "test_count": 0,
+    "failed_tests": 0,
+    "conclusion": "neutral"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Your Name",
+    "commit": {
+      "date": "2026-08-25T13:33:49.000Z",
+      "message": "fix: cambio de idioma a visitante",
+      "url": "https://github.com/Majo2505/Saludador/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 4,
+      "deletions": 2,
       "date": "2026-08-25"
     },
     "coverage": 0,
