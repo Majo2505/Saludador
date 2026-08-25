@@ -1,28 +1,28 @@
-function obtenerPrefijo(hora) {
+function obtenerPrefijoHora(hora, idioma) {
   if (hora >= 6 && hora < 12) {
-    return "Buenos días";
-  } 
-  else if (hora >= 12 && hora < 20) {
-    return "Buenas tardes";
-  } 
-  else {
-    return "Buenas noches";
+    return idioma === "en" ? "Good morning" : "Buenos días";
+  } else if (hora >= 12 && hora < 20) {
+    return idioma === "en" ? "Good afternoon" : "Buenas tardes";
+  } else {
+    return idioma === "en" ? "Good evening" : "Buenas noches";
   }
 }
 
-function obtenerTratoGenero(genero, edad) {
+function obtenerTratoGenero(genero, edad, idioma) {
   if (edad > 30) {
-    if (genero === "Masculino") return "Sr.";
-    if (genero === "Femenino") return "Sra.";
+    if (genero === "Masculino") return idioma === "en" ? "Mr." : "Sr.";
+    if (genero === "Femenino") return idioma === "en" ? "Mrs." : "Sra.";
   }
   return "";
 }
 
-function saludar(nombre, genero = "o", edad = 0,  fechaActual = new Date()) {
+function saludar(nombre, genero = "o", edad = 0, idioma = "es", fechaActual = new Date()) {
   const hora = fechaActual.getHours();
-  const prefijo = obtenerPrefijo(hora);
-  const trato = obtenerTratoGenero(genero, edad)
-  return `¡${prefijo}, ${trato} ${nombre}!`;
+  const prefijo = obtenerPrefijoHora(hora, idioma);
+  const trato = obtenerTratoGenero(genero, edad, idioma)
+
+  const inicioAclamacion = idioma === "en" ? "" : "¡";
+  return `${inicioAclamacion}${prefijo}, ${trato} ${nombre}!`;
 }
 
 export default saludar;
