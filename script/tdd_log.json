@@ -30,9 +30,15 @@
     "testId": 4
   },
   {
-    "commitId": "HEAD",
+    "commitId": "09bd828cc25cf43f526bb540891a50cf975f2daa",
     "commitName": "feat: saludo personalizado por idioma",
     "commitTimestamp": 1787632750190,
     "testId": 5
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: tipo de dato de edad",
+    "commitTimestamp": 1787632948959,
+    "testId": 6
   }
 ]
