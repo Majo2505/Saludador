@@ -12,7 +12,7 @@ form.addEventListener("submit", (event) => {
 
   const nombre = nombreinput.value;
   const genero = generoSelect.value;
-  const edad = Number.parseInt(edadInput.value); 
+  const edad = Number.parseInt(edadinput.value); 
   const idioma = idiomaSelect.value;
 
   div.innerHTML = "<p>" + saludar(nombre,genero,edad,idioma) + "</p>";

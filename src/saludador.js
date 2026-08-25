@@ -16,13 +16,15 @@ function obtenerTratoGenero(genero, edad, idioma) {
   return "";
 }
 
-function saludar(nombre, genero = "o", edad = 0, idioma = "es", fechaActual = new Date()) {
+function saludar(nombre, genero = "o", edad = 0, idioma = "es", fechaActual = new Date())
+{
+  const nombreFinal = nombre.trim() === "" ? "visitante" : nombre;
   const hora = fechaActual.getHours();
   const prefijo = obtenerPrefijoHora(hora, idioma);
-  const trato = obtenerTratoGenero(genero, edad, idioma)
+  const trato = nombreFinal === "visitante" ? "" : obtenerTratoGenero(genero, edad, idioma)
 
   const inicioAclamacion = idioma === "en" ? "" : "¡";
-  return `${inicioAclamacion}${prefijo}, ${trato} ${nombre}!`;
+  return `${inicioAclamacion}${prefijo}, ${trato} ${nombreFinal}!`;
 }
 
 export default saludar;

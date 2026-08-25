@@ -114,17 +114,36 @@
     "conclusion": "neutral"
   },
   {
-    "sha": "HEAD",
+    "sha": "6d64b02cce6227df7f0536937125b6db57e1b8b4",
     "author": "Your Name",
     "commit": {
       "date": "2026-08-25T04:42:27.000Z",
       "message": "fix: tipo de dato de edad",
-      "url": "https://github.com/Majo2505/Saludador/commit/HEAD"
+      "url": "https://github.com/Majo2505/Saludador/commit/6d64b02cce6227df7f0536937125b6db57e1b8b4"
     },
     "stats": {
       "total": 2,
       "additions": 1,
       "deletions": 1,
+      "date": "2026-08-25"
+    },
+    "coverage": 0,
+    "test_count": 0,
+    "failed_tests": 0,
+    "conclusion": "neutral"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Your Name",
+    "commit": {
+      "date": "2026-08-25T13:29:58.000Z",
+      "message": "feat: saludar con visitante si no hay nombre",
+      "url": "https://github.com/Majo2505/Saludador/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 6,
+      "deletions": 4,
       "date": "2026-08-25"
     },
     "coverage": 0,

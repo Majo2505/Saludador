@@ -36,9 +36,15 @@
     "testId": 5
   },
   {
-    "commitId": "HEAD",
+    "commitId": "6d64b02cce6227df7f0536937125b6db57e1b8b4",
     "commitName": "fix: tipo de dato de edad",
     "commitTimestamp": 1787632948959,
     "testId": 6
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: saludar con visitante si no hay nombre",
+    "commitTimestamp": 1787664599961,
+    "testId": 7
   }
 ]
